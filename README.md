@@ -52,6 +52,15 @@ Predictor variables include historical autoregressive telemetry load lags ($t-1,
 
 ---
 
+## 💻 Interactive Streamlit Grid Operator Web Application
+
+![Streamlit Grid Operator Dashboard Preview](figures/streamlit_dashboard_preview.png)
+
+The project includes an interactive web dashboard built with Streamlit (`streamlit/app.py`) for Ceylon Electricity Board (CEB) grid dispatchers and utility managers. 
+- **Dynamic Model Selection**: Real-time evaluation of SARIMAX, Ridge Baseline, Random Forest, and XGBoost models.
+- **Interactive Horizon Slider**: Live operational window tracing from 1-hour ahead (4 steps) up to 48-hours ahead (192 steps).
+- **Metric Cards & Feature Rankings**: Instant display of RMSE, MAE, and MAPE error metrics alongside top predictor feature importances.
+
 ## 📁 Repository Directory Structure
 
 ```text
